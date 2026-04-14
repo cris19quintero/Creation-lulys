@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creaciones Lulys – Tembleques Panameños</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">               
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+<canvas id="particles-canvas"></canvas>
+<div class="toast" id="toast"></div>
+<div class="lightbox" id="lightbox">
+  <span class="lightbox-close" id="lightbox-close"><i class="bi bi-x-lg"></i></span>
+  <img src="" id="lightbox-img" alt="">
+</div>
+<a href="https://wa.me/50762988630" class="wa-float" target="_blank"><i class="bi bi-whatsapp"></i></a>
+
+<div class="bead-border"></div>
+
+<nav id="navbar">
+  <a href="#inicio" class="nav-logo">Creaciones <span>Lulys</span></a>
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#sobre">Artesana</a></li>
+    <li><a href="#catalogo">Catálogo</a></li>
+    <li><a href="#cabezas">Cabezas</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#proceso">Pedidos</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="inicio">
+  <div class="hero-ring" style="width:600px;height:600px"></div>
+  <div class="hero-ring" style="width:800px;height:800px;border-color:rgba(192,25,90,.04);animation-duration:60s;animation-direction:reverse"></div>
+  <div class="hero-ring" style="width:420px;height:420px;border-color:rgba(45,122,31,.06);animation-duration:25s"></div>
+  <div class="container">
+    <div class="hero-subtitle-top">Arte Panameño Hecho a Mano</div>
+    <h1 class="hero-title">Creaciones<br><em>Lulys</em></h1>
+    <p class="hero-tagline">Tembleques artesanales con colores vibrantes, confeccionados con amor y más de 20 años de dedicación</p>
+    <div class="hero-badges">
+      <span class="badge">Tembleques</span>
+      <span class="badge">Tapamoños</span>
+      <span class="badge">Orejeras</span>
+      <span class="badge">Peinetas</span>
+      <span class="badge">Personalizado</span>
+    </div>
+    <div class="hero-cta">
+      <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+      <a href="#contacto" class="btn-outline">Hacer un Pedido</a>
+    </div>
+    <div><span class="panama-accent">🇵🇦 Orgullosamente Panameño</span></div>
+  </div>
+  <div class="scroll-indicator"><span>Descubre</span><i class="bi bi-chevron-double-down"></i></div>
+</section>
+
+<div class="bead-border"></div>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="container">
+    <span class="section-label">Conoce a la artesana</span>
+    <h2 class="section-title">Lourdes González</h2>
+    <div class="gold-divider" style="margin-bottom:3.5rem"></div>
+    <div class="sobre-grid">
+      <div class="sobre-text">
+        <p>Llevo 20 años en la confección de tembleques independiente. Una vez aprendí, no dejé de hacerlo. La confección de tembleques ha sido parte de mi vida y de la de mi familia por muchos años, y sin dudarlo, sigo disfrutando de este arte panameño al que siento que hay que darle más importancia.</p>
+        <div class="destacado">"Mis tembleques son hechos con mucho amor y dedicación, con delicadeza y muchas horas de trabajo. Y solo espero que eso siempre se note a través de mis confecciones."</div>
+        <p>Me gustan los colores vibrantes, la combinación de colores que resalten y se vean muy vistosos. Mi creatividad se demuestra a través de mis tembleques y cada uno lo realizo como si fuera yo quien lo va a utilizar.</p>
+        <p>He tomado en cuenta nuevas tendencias y creado propias — como las orejeras, los ganchos de cabello largo, o una forma diferente de hacer las hojas de las flores. Siempre escucho a mis clientes y utilizo los colores que les gusten.</p>
+      </div>
+      <div>
+        <div class="sobre-stats">
+          <div class="stat-card"><span class="stat-number counter" data-target="20" data-suffix="+">0</span><span class="stat-label">Años de experiencia</span></div>
+          <div class="stat-card"><span class="stat-number">100%</span><span class="stat-label">Hecho a mano</span></div>
+          <div class="stat-card"><span class="stat-number">∞</span><span class="stat-label">Combinaciones de color</span></div>
+          <div class="stat-card"><span class="stat-number">🇵🇦</span><span class="stat-label">Arte panameño</span></div>
+        </div>
+        <div style="margin-top:2rem;background:rgba(255,255,255,.03);border:1px solid rgba(201,162,39,.2);border-radius:8px;padding:1.5rem">
+          <div style="font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,240,232,.45);margin-bottom:.8rem">Información</div>
+          <div style="font-size:.95rem;color:rgba(245,240,232,.7);font-weight:300;line-height:2.2">
+            <div><i class="bi bi-person" style="color:var(--dorado);margin-right:.5rem"></i>Lourdes González &nbsp;·&nbsp; Cédula 4-738-1992</div>
+            <div><i class="bi bi-geo-alt" style="color:var(--dorado);margin-right:.5rem"></i>Villa Daniela, Panamá</div>
+            <div><i class="bi bi-envelope" style="color:var(--dorado);margin-right:.5rem"></i><a href="mailto:Lourdesg02@hotmail.com" style="color:var(--dorado);text-decoration:none">Lourdesg02@hotmail.com</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="bead-border"></div>
+
+<!-- CATÁLOGO -->
+<section id="catalogo">
+  <div class="container">
+    <span class="section-label">Catálogo Oficial 2025</span>
+    <h2 class="section-title">Nuestros Diseños</h2>
+    <p class="section-intro">Selecciona una categoría, elige tu diseño y ordena directo por WhatsApp. Todos los colores son personalizables.</p>
+    <div class="gold-divider" style="margin-bottom:2.5rem"></div>
+    <div class="catalog-filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="cabello">Cabello</button>
+      <button class="filter-btn" data-filter="oidos">Oídos / Orejeras</button>
+      <button class="filter-btn" data-filter="especial">Diseños Especiales</button>
+    </div>
+    <div class="catalog-grid" id="catGrid"></div>
+  </div>
+</section>
+
+<!-- CABEZAS -->
+<section id="cabezas">
+  <div class="container">
+    <span class="section-label">La pieza más completa</span>
+    <h2 class="section-title">Cabezas Completas</h2>
+    <div class="gold-divider" style="margin-bottom:.5rem"></div>
+    <p class="cabezas-intro">Una corona entera de tembleques para lucir en todas tus festividades panameñas.</p>
+    <div class="cabezas-hero">
+      <div>
+        <div class="cabezas-img-wrap" id="cabMainWrap">
+          <img id="cabMainImg" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='380'%3E%3Crect width='400' height='380' fill='%230e2018'/%3E%3Ctext x='200' y='170' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E%F0%9F%91%91%3C/text%3E%3Ctext x='200' y='240' font-family='serif' font-size='16' fill='rgba(201,162,39,0.6)' text-anchor='middle'%3ECabezas Completas%3C/text%3E%3C/svg%3E" alt="Cabezas" style="width:100%;height:380px;object-fit:cover;display:block">
+          <div class="upload-overlay"><i class="bi bi-camera"></i><span>Agregar foto principal</span></div>
+        </div>
+        <div class="cabezas-slots" id="cabSlots"></div>
+        <p style="font-size:.75rem;color:rgba(245,240,232,.3);text-align:center;margin-top:.5rem;font-style:italic"><i class="bi bi-info-circle"></i> Haz clic para agregar tus fotos</p>
+      </div>
+      <div>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--dorado-claro);margin-bottom:1rem">Tipos &amp; Precios</h3>
+        <div class="cabezas-precio-grid" id="cabPrecioGrid"></div>
+        <div style="margin-top:1.5rem;background:rgba(255,255,255,.03);border:1px solid rgba(201,162,39,.15);border-radius:10px;padding:1.2rem">
+          <div style="font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,240,232,.4);margin-bottom:.8rem">Hacer pedido</div>
+          <div id="cabSelectedType" style="font-family:'Playfair Display',serif;font-size:1rem;color:var(--blanco-calido);margin-bottom:.4rem">Selecciona un tipo ↑</div>
+          <div id="cabSelectedPrice" style="font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--dorado-claro);font-weight:700;margin-bottom:.8rem"></div>
+          <input type="text" class="color-input" id="cabColorInput" placeholder="Color(es) preferidos (ej: rojo y dorado)">
+          <button class="btn-order-cabeza" onclick="orderCabeza(event)"><i class="bi bi-whatsapp"></i> Ordenar por WhatsApp</button>
+          <p style="font-size:.75rem;color:rgba(245,240,232,.3);text-align:center;margin-top:.6rem;font-style:italic">Mínimo 3 días de anticipación</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="bead-border"></div>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <div class="container">
+    <span class="section-label">Nuestras creaciones</span>
+    <h2 class="section-title">Galería</h2>
+    <p class="section-intro">Una muestra de nuestras confecciones artesanales. Cada pieza es única, hecha a mano con amor.</p>
+    <div class="gold-divider" style="margin-bottom:2rem"></div>
+    <p class="gallery-note"><i class="bi bi-info-circle"></i> Haz clic en los espacios para cargar fotos de los tembleques.</p>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section id="proceso">
+  <div class="container">
+    <span class="section-label">¿Cómo funciona?</span>
+    <h2 class="section-title">Cómo Hacer tu Pedido</h2>
+    <p class="section-intro">Un proceso simple para recibir tu pieza artesanal única en los colores que más te gusten.</p>
+    <div class="gold-divider" style="margin-bottom:1rem"></div>
+    <div class="proceso-steps">
+      <div class="step"><div class="step-number">1</div><div class="step-title">Elige tu diseño</div><p class="step-desc">Recorre el catálogo y selecciona el estilo que deseas. Puedes pedir colores personalizados.</p></div>
+      <div class="step"><div class="step-number">2</div><div class="step-title">Contáctanos</div><p class="step-desc">Escríbenos por WhatsApp al +507 6298-8630 o por Instagram @creacioneslulys con el diseño y color.</p></div>
+      <div class="step"><div class="step-number">3</div><div class="step-title">Tiempo de elaboración</div><p class="step-desc">Mínimo 3 días de anticipación. Si está pre-confeccionado, puede entregarse al día siguiente.</p></div>
+      <div class="step"><div class="step-number">4</div><div class="step-title">¡Recibe tu pieza!</div><p class="step-desc">Entregamos en centros comerciales, metro u otros puntos públicos de tu conveniencia.</p></div>
+    </div>
+    <div style="margin-top:3.5rem">
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.4rem;text-align:center;color:var(--blanco-calido);margin-bottom:2rem">Opciones de Entrega</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem">
+        <div class="entrega-card"><i class="bi bi-people entrega-icon"></i><div><div class="entrega-title">Encuentro Personal</div><p class="entrega-desc">Nos encontramos en centros comerciales, estaciones del metro u otros lugares públicos.</p></div></div>
+        <div class="entrega-card"><i class="bi bi-truck entrega-icon"></i><div><div class="entrega-title">Delivery</div><p class="entrega-desc">Podemos enviarte el pedido por delivery. El costo del envío es cubierto por el cliente.</p></div></div>
+        <div class="entrega-card"><i class="bi bi-lightning-charge entrega-icon"></i><div><div class="entrega-title">Entrega Rápida</div><p class="entrega-desc">Si el diseño está pre-confeccionado, la entrega puede ser al día siguiente del pedido.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="container">
+    <span class="section-label">¿Lista para brillar?</span>
+    <h2 class="section-title">Contáctanos</h2>
+    <div class="gold-divider"></div>
+    <div class="contact-highlight">"Siempre escucho a mis clientes,<br>utilizo colores que les gusten y les combinen."</div>
+    <div class="contact-cards">
+      <a href="https://wa.me/50762988630" class="contact-card card-whatsapp" target="_blank"><span class="contact-card-icon"><i class="bi bi-whatsapp"></i></span><span class="contact-card-label">WhatsApp</span><div class="contact-card-value">+507 6298-8630</div></a>
+      <a href="https://instagram.com/creacioneslulys" class="contact-card card-instagram" target="_blank"><span class="contact-card-icon"><i class="bi bi-instagram"></i></span><span class="contact-card-label">Instagram</span><div class="contact-card-value">@creacioneslulys</div></a>
+      <a href="https://tiktok.com/@lourdlsxra5" class="contact-card card-tiktok" target="_blank"><span class="contact-card-icon"><i class="bi bi-tiktok"></i></span><span class="contact-card-label">TikTok</span><div class="contact-card-value">@lourdlsxra5</div></a>
+      <a href="mailto:Lourdesg02@hotmail.com" class="contact-card card-email"><span class="contact-card-icon"><i class="bi bi-envelope-heart"></i></span><span class="contact-card-label">Correo</span><div class="contact-card-value">Lourdesg02@hotmail.com</div></a>
+    </div>
+    <div class="pedido-nota">
+      <strong><i class="bi bi-clipboard-check"></i> Recuerda al hacer tu pedido:</strong> Indica el diseño, los colores de tu preferencia y la fecha en que lo necesitas. Los pedidos deben realizarse con <strong>mínimo 3 días de anticipación</strong>. Los colores pueden variar según disponibilidad.
+    </div>
+  </div>
+</section>
+
+<div class="bead-border"></div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Creaciones <span>Lulys</span></div>
+  <p class="footer-sub">Tembleques Artesanales · Panamá</p>
+  <div class="footer-links">
+    <a href="https://wa.me/50762988630" class="footer-link" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+    <a href="https://instagram.com/creacioneslulys" class="footer-link" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+    <a href="https://tiktok.com/@lourdlsxra5" class="footer-link" target="_blank"><i class="bi bi-tiktok"></i> TikTok</a>
+    <a href="mailto:Lourdesg02@hotmail.com" class="footer-link"><i class="bi bi-envelope"></i> Correo</a>
+  </div>
+  <p class="footer-copy">© 2025 Creaciones Lulys · Lourdes González · Hecho con amor en Panamá 🇵🇦</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()"><i class="bi bi-x-lg"></i></button>
+    <div class="modal-header">
+      <div class="modal-cat-label">Creaciones Lulys</div>
+      <div class="modal-title" id="mTitle"></div>
+      <div class="modal-subtitle" id="mSubtitle"></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-detail-grid">
+        <img id="mDetailImg" class="modal-detail-img" src="" alt="">
+        <div class="modal-materials">
+          <h4><i class="bi bi-tools"></i> Materiales</h4>
+          <ul id="mMaterials"></ul>
+          <h4 style="margin-top:1rem"><i class="bi bi-scissors"></i> Pistilos</h4>
+          <ul id="mPistilos"></ul>
+          <div class="modal-cost" id="mCost"></div>
+        </div>
+      </div>
+      <div class="modal-variants-title"><i class="bi bi-images"></i> Diseños Disponibles</div>
+      <p class="variants-note">Escríbenos y te enviamos fotos de los colores disponibles</p>
+      <div id="mVariants" style="background:rgba(201,162,39,.04);border:1px dashed rgba(201,162,39,.15);border-radius:8px;padding:1.5rem;text-align:center;color:rgba(245,240,232,.4);font-size:.9rem;font-style:italic;margin-bottom:1.5rem"><i class="bi bi-images" style="font-size:2rem;display:block;margin-bottom:.5rem"></i>Fotos de diseños se agregarán próximamente.<br>Contáctanos para ver las opciones disponibles.</div>
+      <div class="modal-order">
+        <div class="modal-order-title"><i class="bi bi-bag-check"></i> Ordenar este producto</div>
+        <input type="text" class="color-input" id="mColorInput" placeholder="¿Qué color(es) deseas? (ej: rosado, azul turquesa)">
+        <button class="btn-order" onclick="orderProduct()"><i class="bi bi-whatsapp"></i> Enviar pedido por WhatsApp</button>
+        <p class="order-note">Te responderemos en menos de 24 horas · Mínimo 3 días de anticipación</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="javaScript.js"></script>
+</body>
+</html>
