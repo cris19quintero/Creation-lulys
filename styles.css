@@ -178,7 +178,7 @@ nav ul a:hover::after {
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 6rem 2rem 4rem;
+  padding: 4rem 2rem 4rem;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -609,7 +609,7 @@ nav ul a:hover::after {
 
 /* ── SECTION BASE ── */
 section {
-  padding: 6rem 2rem;
+  padding: 4rem 2rem;
   position: relative;
   z-index: 1;
 }
@@ -1021,7 +1021,7 @@ section {
   inset: 0;
   border-radius: 7px;
 }
-.gallery-slot .slot-overlay {
+.gallery-slot .sloth-overlay {
   position: absolute;
   inset: 0;
   background: rgba(13, 13, 10, 0.7);
