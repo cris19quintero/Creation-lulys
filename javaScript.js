@@ -217,7 +217,6 @@ const CATALOG = [
       {name:"Multicolor vibrante", img:"/imagenes/tapamoños.jpeg"},
       {name:"Fucsia / rosado",     img:"/imagenes/tapamoños_rosado.jpeg"},
       {name:"Menta / turquesa",    img:"/imagenes/tapamoñosceleste.jpeg"},
-      {name:"Tu color favorito",   img:null}
     ]
   },
   {
@@ -231,10 +230,8 @@ const CATALOG = [
     materials: ["Perla número 3.5","Alambre número 4","Lágrima número 8","Bolitas número 6","Gancho mediano","Hilo verde","Alambre para amarrar número 20"],
     pistilos:  ["Perla 3.5","Alambre 4","Lágrima 5","Flor 5","Bolitas 5","Hilo verde"],
     variants: [
-      {name:"Turquesa / verde", img:"/imagenes/tapaorejas_verde.jpeg"},
-      {name:"Azul / morado",    img:"/imagenes/escamas.jpeg"},
-      {name:"Multicolor",       img:"/imagenes/flores.jpeg"},
-      {name:"Tu color",         img:null}
+      {name:"Turquesa / verde", img:"/imagenes/tapaorejasceleste.jpeg"},
+      {name:"Multicolor",       img:"/imagenes/TapaOrejasvarioscolores.jpeg"},
     ]
   },
   {
@@ -248,10 +245,7 @@ const CATALOG = [
     materials: ["Perla número 3.5","Alambre número 4","Lágrimas número 8 y 4","Flor número 6","Rombo número 4","Bolitas número 6","Peineta","Hilo verde"],
     pistilos:  ["Perla 3.5","Alambre 4","Lágrima 5","Flor 5","Bolitas 5","Hilo verde"],
     variants: [
-      {name:"Fucsia brillante",   img:null},
-      {name:"Multicolor",         img:null},
-      {name:"Amarillo / naranja", img:null},
-      {name:"Tu color",           img:null}
+      {name:"Rosada",         img:"/imagenes/peinetas_rosadas.jpeg"},
     ]
   },
   {
@@ -285,28 +279,11 @@ const CATALOG = [
     pistilos:  ["Perla 3.5","Alambre 4","Lágrima 5","Flor 5","Bolitas 5","Hilo dorado"],
     variants: [
       {name:"Fucsia / rosado",   img:"/imagenes/orejeras_rosada.jpeg"},
-      {name:"Negro / dorado",    img:null},
-      {name:"Menta / turquesa",  img:null},
-      {name:"Tu color",          img:null}
+      {name:"Negro / dorado",    img:"/imagenes/orejeras_negras.jpeg"},
+      {name:"Rosado / turquesa",  img:"/imagenes/orejeras.jpeg"},
     ]
   },
-  {
-    id: "orejeras_escamas",
-    name: "Orejeras de Escamas",
-    category: "oidos",
-    type: "Innovación Lulys · Par",
-    desc: "Orejeras elaboradas con escamas de pescado medianas. Colores dorados y naturales que brillan con la luz. Diseño exclusivo y único.",
-    price: "B/. 10.00", unit: "el par",
-    thumb: "orejeras2", detail: "detail_orejeras_escama",
-    materials: ["Escama de pescado mediana","Alambre número 4","Lágrima número 8","Bolitas número 6","Alambre para amarrar número 20","Hilo dorado"],
-    pistilos:  ["Escama de pescado mediana","Alambre 4","Lágrima 8","Bolitas 6","Alambre 20","Hilo dorado"],
-    variants: [
-      {name:"Dorado natural", img:null},
-      {name:"Turquesa",       img:null},
-      {name:"Tu color",       img:null}
-    ]
-  },
-
+  
   // ══ DISEÑOS ESPECIALES ═══════════════════════════════════════
   {
     id: "escamas",
@@ -319,10 +296,7 @@ const CATALOG = [
     materials: ["Escama de pescado","Alambre número 4","Gusanillo","Lágrima número 6","Rombo número 6","Bolitas número 6","Gancho mediano","Hilo verde","Alambre número 20"],
     pistilos:  ["Perla 3.5","Alambre 4","Lágrima 5","Flor 5","Bolitas 5","Hilo verde"],
     variants: [
-      {name:"Multicolor escamas",  img:null},
-      {name:"Azul / celeste",      img:null},
-      {name:"Naranja / amarillo",  img:null},
-      {name:"Tu color",            img:null}
+      {name:"Multicolor escamas",  img:"/imagenes/escamasdepescado.jpeg"},
     ]
   },
   {
@@ -336,10 +310,9 @@ const CATALOG = [
     materials: ["Perla número 4","Lágrima número 8 de cristal","Rombo de cristal número 3","Bolitas de cristal número 5","Flor de cristal número 6","Alambre número 4","Gancho mediano","Hilo verde"],
     pistilos:  ["Perla 4","Lágrima 5","Flor 5","Bolitas número 5","Alambre 4","Hilo verde"],
     variants: [
-      {name:"Rosado / blanco", img:null},
-      {name:"Multicolor",      img:null},
-      {name:"Rojo intenso",    img:null},
-      {name:"Tu color",        img:null}
+      {name:"Diseño unico", img:"/imagenes/flores_pimpollos2.jpeg"},
+      {name:"Multicolor",      img:"/imagenes/flores_pimpollos3.jpeg"},
+
     ]
   },
   
@@ -367,15 +340,12 @@ const CABEZAS = [
 const CABEZAS_FOTOS = [
   // Agrega aquí tus rutas de fotos de cabezas completas:
   "imagenes/cabeza.jpeg",
-  "imagenes/cabeza2.png",
-  "imagenes/cabeza1.png",
-  // "imagenes/cabeza4.jpeg",
-  // "imagenes/cabeza5.jpeg",
-  // "imagenes/cabeza6.jpeg",
+  "imagenes/cabeza2.jpeg",
+  "imagenes/cabeza1.jpeg",
 ];
 
 // Foto principal de cabezas (la imagen grande)
-const CABEZA_FOTO_PRINCIPAL = "imagenes/cabeza_principal.png";
+const CABEZA_FOTO_PRINCIPAL = "imagenes/cabeza_principal.jpeg";
 // Ejemplo: const CABEZA_FOTO_PRINCIPAL = "imagenes/cabeza_principal.jpeg";
 
 // Imagen por tipo de cabeza (opcional, aparece al seleccionar)
@@ -651,7 +621,7 @@ const galleryImages = [
   "imagenes/Tapamoñosrosado_par.jpeg"
 ];
 
-const TOTAL_SLOTS = 15;
+const TOTAL_SLOTS = 9;
 
 for (let i = 0; i < TOTAL_SLOTS; i++) {
   const slot   = document.createElement('div');
